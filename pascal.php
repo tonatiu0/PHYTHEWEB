@@ -90,7 +90,7 @@ require 'requirelanguage.php';
 
           <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
 
-          <p></p>
+          <p><?php echo $p1Pascal ?></p>
 
           <iframe src="https://phet.colorado.edu/sims/html/under-pressure/latest/under-pressure_es.html" width="800" height="600" scrolling="no" allowfullscreen></iframe>  
           <span class="caption text-muted">Applet <?php echo $tomado ?> <a href='https://phet.colorado.edu/es/simulation/under-pressure'>PHET</a></span>
