@@ -14,3 +14,5 @@ $publicado="Publicado por";
 $agradecimientos="Gracias a <a href='https://startbootstrap.com/themes/'> StartBootstrap</a> por la plantilla.";
 $tomado="Tomado de";
 $p1Pascal="";
+$p2Pascal="";
+$p3Pascal="";
