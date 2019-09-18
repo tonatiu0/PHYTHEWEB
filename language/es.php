@@ -13,3 +13,4 @@ $tema1desc="La teoría e importancia del principio de Pascal en la vida cotidian
 $publicado="Publicado por";
 $agradecimientos="Gracias a <a href='https://startbootstrap.com/themes/'> StartBootstrap</a> por la plantilla.";
 $tomado="Tomado de";
+$p1Pascal="";
