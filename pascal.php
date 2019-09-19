@@ -69,7 +69,7 @@ require 'requirelanguage.php';
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1><?php echo $tema1 ?></h1>
+            <h1><?php echo $tema1 ?> <span class="badge badge-danger"><?php echo $new ?></span></h1>
          <!--   <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
             <span class="meta"><?php echo $publicado ?>
               <a href="#">Admin</a> |
