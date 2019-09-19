@@ -44,7 +44,7 @@ require 'requirelanguage.php';
           </li>
           <li class="nav-item">
             <div class="dropdown closed">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
               <?php echo $cambiarIdioma; ?>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -86,7 +86,7 @@ require 'requirelanguage.php';
         <div class="post-preview">
           <a href="pascal.php">
             <h2 class="post-title">
-              <?php echo $tema1 ?>
+              <?php echo $tema1 ?><span class="badge badge-danger"><?php echo $new ?>
             </h2>
             <h3 class="post-subtitle">
               <?php echo $tema1desc ?>
