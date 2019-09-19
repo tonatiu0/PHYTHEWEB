@@ -93,6 +93,9 @@ require 'requirelanguage.php';
           <p><?php echo $p1Pascal ?></p>
           <p><?php echo $p2Pascal ?></p>
           <p><?php echo $p3Pascal ?></p>
+          <div class="col align-self-center">
+          <img src="img/formulaPascal.png"/>
+          </div>
           <p><?php echo $p4Pascal ?></p>
           <p><?php echo $p5Pascal ?></p>
           <p><?php echo $p6Pascal ?></p>
