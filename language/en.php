@@ -1,4 +1,5 @@
 <?php
+$new="New";
 $cambiarIdioma="Language";
 $inicio="Home";
 $spanish="Spanish";
