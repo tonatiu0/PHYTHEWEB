@@ -25,9 +25,7 @@ El principio de Pascal se puede utilizar en trabajos que necesitan de un gran es
 -Neumáticos que tienen los automóviles<br>
 -Elevadores hidráulicos<br>
 -Prensas hidráulicas
-    <div class="col align-self-center">
-      <img src="img/formulaPascal.png"/>
-    </div>
+
 ";
 $p4Pascal="<b>IMPORTANCIA</b><br>
 La importancia de este principio radica en la relación que hay entre la presión y la profundidad de un fluido, o en la altura de columna de fluido, a partir de un valor de referencia. Es importante por su validez en el caso de fluidos compresibles que varían con la presión.
