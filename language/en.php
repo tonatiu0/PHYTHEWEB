@@ -55,3 +55,10 @@ Calculate the applied force:
 -F1-p1S1
 -F1o (44.21) (0.152) - 72 N
 ";
+$appletP="Applet to understand the topic";
+$imgP1="Backhoe";
+$imgP1D="Uses the law to be able to move the 'hand'";
+$imgP2="Hydraulic jack";
+$imgP2D="Without the use of the principle we cannot be able to lift a car that easy.";
+$imgP3="Lifter";
+$imgP3D="Essential in factorys.";
