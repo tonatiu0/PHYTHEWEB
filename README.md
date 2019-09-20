@@ -1,6 +1,6 @@
-# PYYTHEWEB - A SCHOOL PROJECT DEV
+# PHYTHEWEB - Un proyecto integrador nivel bachillerato | Física, Inglés y Aplicaciones + Servicios
 
-A website to post topics about physics
+Un proyecto que integra las materias de Física II, Inglés V y Aplicaciones + Servicios -> CBTis 168 TV 5°L
 
 
 ## Copyright and License
