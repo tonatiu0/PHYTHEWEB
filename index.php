@@ -11,13 +11,12 @@ require 'requirelanguage.php';
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Fisica II</title>
+  <title><?php echo $fisica; ?> II</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
+  <!-- Custom fonts for this template | Icons-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -32,7 +31,7 @@ require 'requirelanguage.php';
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><?php echo $fisica; ?></a>
+      <a class="navbar-brand" href="index.php"><?php echo $fisica; ?>  <i class="fas fa-bolt"></i></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -44,7 +43,7 @@ require 'requirelanguage.php';
           </li>
           <li class="nav-item">
             <div class="dropdown closed">
-              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe"></i>
               <?php echo $cambiarIdioma; ?>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -69,7 +68,7 @@ require 'requirelanguage.php';
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1><?php echo $fisica ?></h1>
+            <h1><?php echo $fisica ?> </h1>
             <span class="subheading"><?php echo $subtitulo ?></span>
           </div>
         </div>
@@ -82,11 +81,11 @@ require 'requirelanguage.php';
 
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-      	<h1 class="text-center"> <?php echo $tema ?></h1>
+      	<h1 class="text-center display-4"> <b><?php echo $tema ?></b></h1>
         <div class="post-preview">
           <a href="pascal.php">
             <h2 class="post-title">
-              <?php echo $tema1 ?><span class="badge badge-danger"><?php echo $new ?>
+              <?php echo $tema1 ?> <span class="badge badge-danger"><?php echo $new ?>
             </h2>
             <h3 class="post-subtitle">
               <?php echo $tema1desc ?>
@@ -118,20 +117,12 @@ require 'requirelanguage.php';
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/ErnestoRB/PHYTHEWEB">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
